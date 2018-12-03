@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "csubj.github.io": {
+    "personalpage": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -63,18 +63,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "csubj.github.io:build"
+            "browserTarget": "personalpage:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "csubj.github.io:build:production"
+              "browserTarget": "personalpage:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "csubj.github.io:build"
+            "browserTarget": "personalpage:build"
           }
         },
         "test": {
@@ -108,7 +108,7 @@
         }
       }
     },
-    "csubj.github.io-e2e": {
+    "personalpage-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -117,11 +117,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "csubj.github.io:serve"
+            "devServerTarget": "personalpage:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "csubj.github.io:serve:production"
+              "devServerTarget": "personalpage:serve:production"
             }
           }
         },
@@ -137,5 +137,5 @@
       }
     }
   },
-  "defaultProject": "csubj.github.io.github.io"
+  "defaultProject": "personalpage"
 }
