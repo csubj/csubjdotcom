@@ -557,7 +557,7 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/csubj/work/personalpage/src/styles.sass */"./src/styles.sass");
+module.exports = __webpack_require__(/*! /home/csubj/work/csubjdotcom/src/styles.sass */"./src/styles.sass");
 
 
 /***/ })
