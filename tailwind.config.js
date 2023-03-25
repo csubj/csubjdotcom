@@ -1,14 +1,26 @@
 /** @type {import('tailwindcss').Config} */
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   content: ['./components/**/*.tsx', './pages/**/*.tsx'],
   theme: {
     extend: {
+      // colors: {
+      //   'accent-1': '#FAFAFA',
+      //   'accent-2': '#EAEAEA',
+      //   'accent-7': '#333',
+      //   success: '#0070f3',
+      //   cyan: '#79FFE1',
+      // },
       colors: {
-        'accent-1': '#FAFAFA',
-        'accent-2': '#EAEAEA',
-        'accent-7': '#333',
-        success: '#0070f3',
-        cyan: '#79FFE1',
+        transparent: 'transparent',
+        current: 'currentColor',
+        black: colors.black,
+        white: colors.white,
+        gray: colors.gray,
+        emerald: colors.emerald,
+        indigo: colors.indigo,
+        yellow: colors.yellow,
       },
       spacing: {
         28: '7rem',

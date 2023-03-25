@@ -1,8 +1,8 @@
 ---
-title: 'Learning Nextjs'
-excerpt: 'Hello World'
+title: 'This is another test!'
+excerpt: 'Hello World -- but seriously this is a test and i just want to see if this works like i think it does. kthx'
 coverImage: '/assets/blog/hello-world/cover.jpg'
-date: '2023-03-24T05:35:07.322Z'
+date: '2023-03-25T05:35:07.322Z'
 author:
   name: Cj
   picture: '/assets/blog/authors/cat.jpg'
