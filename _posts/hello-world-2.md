@@ -13,12 +13,12 @@ ogImage:
 # Hello
 
 | a | b |
-| - | - |
+| ---- | --------- |
 | test test | test test test|
 
 ## Loren 
 
-```python
+``` python
 for x in range(100):
   a += x
 ```

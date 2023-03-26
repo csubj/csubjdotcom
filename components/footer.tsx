@@ -3,9 +3,9 @@ import { EXAMPLE_PATH } from '../lib/constants'
 
 const Footer = () => {
   return (
-    <footer className="bg-neutral-50 border-t border-neutral-200">
+    <footer className="">
       <Container>
-        <div className="py-28">
+        <div className="p-28">
           <h1>Made with Love on the Internet.</h1>
         </div>
       </Container>
