@@ -22,7 +22,7 @@ const PostPreview = ({
   slug,
 }: Props) => {
   return (
-    <div>
+    <div className="bg-gradient-to-r from-red-500 via-pink-500 to-purple-400">
       <div className="mb-5">
         <CoverImage slug={slug} title={title} src={coverImage} />
       </div>

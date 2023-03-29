@@ -13,7 +13,7 @@ module.exports = {
         gray: colors.gray,
         emerald: colors.emerald,
         indigo: colors.indigo,
-        tasty: colors.yellow,
+        yellow: colors.yellow,
       },
       spacing: {
         28: '7rem',
