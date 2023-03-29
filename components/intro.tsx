@@ -1,8 +1,10 @@
 import { SITE_TITLE_SUFFIX } from '../lib/constants'
 
-const slogans = [
+let slogans: string[] = [
   "Personal Slogan Goes Here",
-  "Here's Cj"
+  "Here's Cj", 
+  "This is another intro here",
+  "5g waves passing through me"
 ]
 
 const Intro = () => {
@@ -11,7 +13,7 @@ const Intro = () => {
       <h1 className="text-5xl md:text-5xl font-bold tracking-tighter leading-tight md:pr-8">
         {SITE_TITLE_SUFFIX}
       </h1>
-      <h2>Personal Slogan Goes Here</h2>
+      {/* <h2>{slogans[Math.floor(Math.random()*slogans.length)]}</h2> */}
     </section>
   )
 }
