@@ -22,7 +22,7 @@ export default function Index({ allPosts }: Props) {
           <title>{SITE_TITLE_SUFFIX}</title>
         </Head>
         <Container>
-          <Intro />
+          {Intro()}
           {heroPost && (
             <HeroPost
               title={heroPost.title}

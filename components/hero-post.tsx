@@ -22,13 +22,13 @@ const HeroPost = ({
   slug,
 }: Props) => {
   return (
-    <section className="flex flex-col sm:md:flex-row items-left md:justify-between mt-16 mb-16 md:mb-12 space-x-3">
+    <section className="flex flex-col sm:md:flex-row items-left md:justify-between mt-5 mb-5 md:mb-12 space-x-3">
       <div className="mb-2 md:mb-4">
         <CoverImage title={title} src={coverImage} slug={slug} />
       </div>
-      <div className="md:grid md:grid-row-2 md:gap-x-16 lg:gap-x-8 mb-20 md:mb-28">
+      <div className="md:grid md:grid-row-2 md:gap-x-5 lg:gap-x-5 mb-5 md:mb-5">
         <div className="border-white bg-stone-100 bg-opacity-25 rounded-lg shadow-2xl p-5">
-          <h3 className="mb-4 text-4xl lg:text-5xl leading-tight">
+          <h3 className=" text-4xl lg:text-5xl">
             <Link
               as={`/posts/${slug}`}
               href="/posts/[slug]"
@@ -37,9 +37,11 @@ const HeroPost = ({
               {title}
             </Link>
           </h3>
-          <div className="mb-4 md:mb-0 text-lg p-5">
-            <DateFormatter dateString={date} />
+          <div className="mb-4 md:mb-0 text-lg pl-2 pt-4 space-y-2">
+            <div className="flex flex-row space-x-5">
             <Avatar name={author.name} picture={author.picture} />
+            <DateFormatter dateString={date} />
+            </div>
             <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
           </div>
         </div>

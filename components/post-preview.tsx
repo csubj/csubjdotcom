@@ -23,7 +23,7 @@ const PostPreview = ({
 }: Props) => {
   return (
     <div>
-      <div className="mb-2">
+      <div className="m-2">
         <CoverImage slug={slug} title={title} src={coverImage} />
       </div>
       <div className="border-white bg-stone-100 bg-opacity-25 rounded-lg shadow-2xl p-5">
@@ -36,10 +36,10 @@ const PostPreview = ({
             {title}
           </Link>
         </h3>
-        <div className="text-lg flex-row p-5">
+        <div className="text-lg flex-col p-5">
           <Avatar name={author.name} picture={author.picture} />
           <DateFormatter dateString={date} />
-          <p className="text-lg m-10">{excerpt}</p>
+          <p className="text-lg">{excerpt}</p>
         </div>
 
       </div>
