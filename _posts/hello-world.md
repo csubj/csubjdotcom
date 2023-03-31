@@ -5,7 +5,7 @@ coverImage: '/assets/blog/hello-world/cover.jpg'
 date: '2023-03-24T05:35:07.322Z'
 author:
   name: Cj
-  picture: '/assets/blog/authors/cat.jpg'
+  picture: '/assets/blog/cat.jpg'
 ogImage:
   url: '/assets/blog/hello-world/cover.jpg'
 ---
