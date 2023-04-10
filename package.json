@@ -19,7 +19,7 @@
     "remark": "^14.0.2",
     "remark-gfm": "^3.0.1",
     "remark-html": "^15.0.1",
-    "typescript": "^5.0.2"
+    "typescript": "^5.0.4"
   },
   "devDependencies": {
     "@types/node": "^18.15.10",
