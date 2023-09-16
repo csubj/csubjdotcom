@@ -10,4 +10,14 @@
          <lastmod>2023-09-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://csubj.io/blog/2023/09/15/automate-all-the-things/</loc>
+         <lastmod>2023-09-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://csubj.io/docs/blog/</loc>
+         <lastmod>2023-09-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>
