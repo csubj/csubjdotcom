@@ -52,6 +52,7 @@ jobs:
             "mkdocs-rss-plugin>=1.2" \
             "mkdocs-redirects>=1.0" \
             "pymdown-extensions" \
+            "mkdocs-material" \
             "lxml" \
             "pillow<10"
 
