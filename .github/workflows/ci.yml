@@ -51,6 +51,7 @@ jobs:
             "mkdocs-rss-plugin>=1.2" \
             "mkdocs-redirects>=1.0" \
             "lxml" \
+            "pymdown-extensions" \
             "pillow<10"
 
       - name: Deploy documentation
