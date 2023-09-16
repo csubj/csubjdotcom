@@ -1,5 +1,5 @@
 # Project information
-site_name: Csubj | Blog
+site_name: Csubj | Software Engineer
 site_url: https://csubj.io
 site_author: Cj Buresch
 site_description: >-
@@ -12,8 +12,8 @@ nav:
     - blog/index.md
 
 # Repository
-repo_name: csubjdotio
-repo_url: https://github.com/csubj/csubjdotio
+# repo_name: csubjdotio
+# repo_url: https://github.com/csubj/csubjdotio
 
 
 # Configuration
@@ -30,13 +30,13 @@ theme:
     - content.tooltips
     # - header.autohide
     # - navigation.expand
-    - navigation.footer
+    # - navigation.footer
     - navigation.indexes
-    # - navigation.instant
+    - navigation.instant
     # - navigation.prune
     - navigation.sections
     - navigation.tabs
-    # - navigation.tabs.sticky
+    - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
     - search.highlight
@@ -45,18 +45,7 @@ theme:
     - toc.follow
     # - toc.integrate
   palette:
-    - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - scheme: slate
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+    primary: custom
   font:
     text: Roboto
     code: Roboto Mono
@@ -66,11 +55,16 @@ theme:
 
 # Plugins
 plugins:
+  # - meta
+  - tags
   - blog
+  - social
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  # - minify:
-  #     minify_html: true
+  - minify
+
+extra_css:
+  - stylesheets/extra.css
 
 # Customization
 extra:
@@ -87,7 +81,7 @@ extra:
       link: https://twitter.com/csubj
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/csubj/
-
+  generator: false
 # Extensions
 markdown_extensions:
   - abbr

@@ -1,3 +1,4 @@
 #!/bin/bash
 
-docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material
+docker build -t csubjiodocs .
+docker run --rm -it -p 8000:8000 -v ${PWD}:/docs csubjiodocs
